@@ -6,27 +6,44 @@ Prérequis:
 ------------------------------------
 
 pip3 install scikit-build
+
 sudo apt install libportaudio
+
 sudo apt install libffi-dev
+
 pip install setuptools==60
+
 pip install Cython
 
 ------------------------------------
 Virtualenv
 ------------------------------------
-Install:
-# pip3 install virtualenv
-Create:
-# python3 -m venv <venv-name>
-Activate:
-# source <venv-name>/bin/activate
-Quit:
-# deactivate
+
+# Install:
+
+$  pip3 install virtualenv
+
+# Create:
+
+$  python3 -m venv <venv-name>
+
+# Activate:
+
+$  source <venv-name>/bin/activate
+
+# Quit:
+
+$  deactivate
+
+# Requirements
+
+$ pip3 install -r requirements.txt
+
 ------------------------------------
 Installation SpeechToText:
 ------------------------------------
 
-pip3 install SpeechRecognition pydub
+$ pip3 install SpeechRecognition pydub
 
 ------------------------------------
 Insallation pyAudio (Microphone)
@@ -44,7 +61,8 @@ You need to first install the dependencies:
 
 $ sudo apt-get install python-pyaudio python3-pyaudio
 sudo apt install portaudio19-dev
-$ pip3 install portaudio pyaudio pocketsphinx (pyAudio?)
+
+$ pip3 install portaudio pyAudio
 
 MacOS
 ------------------------------------
@@ -56,6 +74,7 @@ $ pip3 install pyaudio
 ------------------------------------
 PocketSphinx (model fr)
 ------------------------------------
-https://github.com/Uberi/speech_recognition/blob/master/reference/pocketsphinx.rst
-https://sourceforge.net/projects/cmusphinx/files/Acoustic%20and%20Language%20Models/French/
 
+pip install pocketsphinx
+
+https://github.com/Uberi/speech_recognition/blob/master/reference/pocketsphinx.rst
