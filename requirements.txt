@@ -1,0 +1,12 @@
+certifi==2023.7.22
+cffi==1.15.1
+charset-normalizer==3.2.0
+idna==3.4
+pocketsphinx==5.0.2
+PyAudio==0.2.13
+pycparser==2.21
+pydub==0.25.1
+requests==2.31.0
+sounddevice==0.4.6
+SpeechRecognition==3.10.0
+urllib3==2.0.4
